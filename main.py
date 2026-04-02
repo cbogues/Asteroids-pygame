@@ -37,6 +37,8 @@ def main():
         # Fill screen with black
         screen.fill("black")
 
+        # Update player
+        player.update(dt)
         # Draw the player (after filling the screen, before flipping)
         player.draw(screen)
 
